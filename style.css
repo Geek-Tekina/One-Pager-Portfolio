@@ -6,14 +6,14 @@
 
 .leftmenu {
     background: url(giphy.gif);
-    height: 100%;
+    height:max-content;
     width: 100%;
 
 }
 
 #main {
     position: relative;
-    margin-top: 75vh;
+    margin-top: 69vh;
     margin-left: 46vw;
 }
 
@@ -21,14 +21,7 @@
     position: fixed;
 }
 
-.images {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 
-
-}
 
 #menu-top {
 
@@ -37,4 +30,13 @@
 
     color: rgb(239, 132, 9);
     font-weight: bolder;
+}
+.image_con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+.photo{
+    padding: 10vh;
 }
